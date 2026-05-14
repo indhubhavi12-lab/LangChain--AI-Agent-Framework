@@ -12,8 +12,8 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 
 load_dotenv()
 
-google_api_key = os.getenv("AIzaSyBxTLxI2HC27PDbKAe4Kbfk-CJD8Fn_WQI")
-tavily_api_key = os.getenv("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")
+google_api_key = os.getenv("Enter your API Key")
+tavily_api_key = os.getenv("Enter your API Key")
 
 # ----------------------------------------
 # Initialize Gemini LLM
