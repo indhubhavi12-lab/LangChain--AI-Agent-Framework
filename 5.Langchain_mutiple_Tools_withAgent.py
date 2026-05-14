@@ -14,8 +14,8 @@ from langchain.agents import initialize_agent, AgentType
 
 load_dotenv()
 
-google_api_key = os.getenv("AIzaSyDgLtDIMhTsBNJ_QEJsNam1CdkOIzzUFCM")
-tavily_api_key = os.getenv("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")
+google_api_key = os.getenv("Enter your API Key")
+tavily_api_key = os.getenv("Enter your API Key")
 
 # ----------------------------------------
 # Initialize Gemini LLM
