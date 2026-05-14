@@ -1,0 +1,47 @@
+User Query:
+What is LangGraph in LangChain?
+
+Agent Response:
+LangGraph is a library built on top of LangChain for building stateful, multi-step AI agents
+using a graph-based structure.
+
+- Nodes represent individual steps (LLM calls, tool use, data processing)
+- Edges control the flow between steps, including loops and conditional branching
+- State is maintained and passed across all steps throughout execution
+
+Unlike basic LangChain chains that run linearly, LangGraph supports cycles, memory,
+human-in-the-loop pauses, and complex decision trees — making it the recommended
+framework for building production-grade AI agents.
+
+============================================================
+
+User Query:
+Summarize this: LangChain is a framework to build LLM apps using prompts, memory, tools, and agents.
+
+Agent Response:
+LangChain is a framework that enables the development of LLM-powered applications
+by combining prompts, memory, tools, and agents into cohesive workflows.
+
+============================================================
+
+User Query:
+Latest news about OpenAI GPT-4o
+
+Agent Response:
+Here are the latest updates on OpenAI GPT-4o:
+
+1. GPT-4o ("omni") is OpenAI's flagship multimodal model that processes text, audio,
+   and images natively in a single end-to-end model — making interactions faster
+   and more natural.
+
+2. OpenAI has introduced GPT-4o with real-time voice capabilities, allowing natural
+   back-and-forth conversations with emotional tone detection and response.
+
+3. Recent updates include enhanced memory (remembering past conversations), an
+   integrated canvas for writing and coding, improved reasoning, and broader
+   language support across 50+ languages.
+
+4. GPT-4o is now available for free ChatGPT users (with limits), ChatGPT Plus
+   subscribers (higher limits), and via the OpenAI API for developers.
+
+============================================================

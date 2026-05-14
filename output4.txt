@@ -1,0 +1,46 @@
+Simple QA Tool
+========================================
+Question: What is LangGraph in LangChain?
+
+Answer:
+LangGraph is a library built on top of LangChain for building stateful, multi-step AI agents
+using a graph-based structure.
+
+Key Concepts:
+- Nodes: Each node is a step — calling an LLM, running a tool, or processing data
+- Edges: Define the flow between steps, including conditional branching and loops
+- State: Data is passed and updated across all steps in the graph
+
+Why use LangGraph?
+- Standard LangChain runs linearly (A → B → C)
+- LangGraph adds loops, branching, memory, and human-in-the-loop support
+- Ideal for building production-grade, reliable AI agents
+
+Summarizer Tool
+========================================
+Input Text:
+LangGraph is a framework for building stateful multi-step agents using LangChain.
+It uses graph-based design to model agent workflows and memory.
+
+Summary:
+LangGraph is a LangChain framework that uses graph-based design to build stateful,
+multi-step AI agents with structured workflows and memory management.
+
+Web Search Tool
+========================================
+Query: Latest updates on GPT-4o by OpenAI
+
+Results:
+[1] OpenAI released GPT-4o with improved speed and multimodal capabilities including
+    real-time voice, vision, and text in a single model. It is now available in
+    ChatGPT Free, Plus, and via the API.
+    Source: openai.com
+
+[2] GPT-4o ("o" for "omni") processes text, audio, and images natively end-to-end,
+    making responses faster and more natural than previous models. It matches GPT-4
+    Turbo on text and code tasks but is significantly faster and cheaper.
+    Source: techcrunch.com
+
+[3] OpenAI has rolled out several updates to GPT-4o including enhanced memory,
+    canvas for document editing, improved reasoning, and support for more languages.
+    Source: theverge.com

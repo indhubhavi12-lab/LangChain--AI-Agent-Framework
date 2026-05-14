@@ -1,0 +1,28 @@
+Simple QA Tool
+========================================
+Question: What is LangGraph in LangChain?
+
+Answer:
+LangGraph is a library built on top of LangChain designed to help developers build stateful, multi-step
+AI applications and agents using a graph-based structure.
+
+Key points:
+- Each **node** in the graph represents a step (e.g., calling an LLM, running a tool, processing data)
+- Each **edge** defines the flow or transition between steps (including conditional branching and loops)
+- Unlike a basic LangChain chain (which runs linearly A → B → C), LangGraph supports:
+  * Cycles and loops — an agent can retry or repeat steps
+  * Branching — take different paths based on decisions
+  * State management — keep track of data across all steps
+  * Human-in-the-loop — pause execution and wait for user input
+
+It is the recommended framework in LangChain for building production-grade AI agents.
+
+Summarizer Tool
+========================================
+Input Text:
+LangGraph is a library built on top of LangChain that helps developers create stateful, multi-step agents
+as graphs. Each node represents a step like calling an LLM or a tool. It's ideal for advanced AI workflows.
+
+Summary:
+LangGraph is a LangChain library for building stateful, multi-step AI agents as graphs, where each node
+represents an action (LLM call or tool use), making it well-suited for complex AI workflows.
