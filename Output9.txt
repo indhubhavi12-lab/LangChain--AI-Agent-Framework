@@ -1,0 +1,15 @@
+===== LangChain RAG Tool Output =====
+
+Knowledge Base Chunks:
+1. LangChain is a framework for building applications powered by large language models. It helps developers connect prompts, models, tools, retrievers, memory, and agents into AI workflows.
+2. LangChain was launched as an open-source project in October 2022 by Harrison Chase.
+3. In AI workflows, LangChain is often used for retrieval augmented generation, tool calling, document question answering, chatbots, and agentic systems that can reason over external data.
+
+1. First Question
+Answer: LangChain is a framework for building LLM-powered applications with prompts, tools, retrievers, memory, and agents.
+
+2. Follow-up
+Answer: Harrison Chase created LangChain.
+
+3. Combined Reasoning
+Answer: LangChain helps AI workflows by connecting LLMs with external knowledge, retrieval, tools, memory, and agents so applications can answer questions and take useful actions.

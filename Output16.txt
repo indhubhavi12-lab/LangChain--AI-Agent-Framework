@@ -1,0 +1,26 @@
+===== LangChain Output Parser Output =====
+
+1. StrOutputParser
+Prompt: Translate to French: Good morning
+Raw model output: Bonjour
+Parsed output: Bonjour
+
+2. CommaSeparatedListOutputParser
+Prompt: List 5 programming languages, comma-separated.
+Raw model output: Python, Java, C++, JavaScript, Ruby
+Parsed output: ['Python', 'Java', 'C++', 'JavaScript', 'Ruby']
+
+3. PydanticOutputParser
+Prompt preview: Extract product name and price from: The Redmi Note 12 is available for INR 14999.
+Raw model output: {"name": "Redmi Note 12", "price": 14999.0}
+Parsed output: name='Redmi Note 12' price=14999.0
+Product name: Redmi Note 12
+Product price: 14999.0
+
+4. JsonOutputParser
+Prompt: Extract company and founder from the text: Hope AI was founded by Ramisha Rani in Tamil Nadu.
+Return valid JSON with keys company and founder.
+Raw model output: {"company": "Hope AI", "founder": "Ramisha Rani"}
+Parsed output: {'company': 'Hope AI', 'founder': 'Ramisha Rani'}
+Company: Hope AI
+Founder: Ramisha Rani

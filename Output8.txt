@@ -1,0 +1,64 @@
+===== LangChain Tools, Agent, and Memory Output =====
+
+Tool check:
+LangChain is a framework for building applications with large language models, tools, retrieval, agents, and memory.
+
+1. ConversationBufferMemory
+
+Answer: LangChain is a framework for building applications powered by large language models.
+Answer: LangChain was created by Harrison Chase.
+Answer: In simple terms, LangChain helps an AI model use prompts, tools, data, and memory.
+
+Stored Messages:
+HUMAN: What is LangChain?
+AI: LangChain is a framework for building applications powered by large language models.
+HUMAN: Who created it?
+AI: LangChain was created by Harrison Chase.
+HUMAN: Explain it simply again.
+AI: In simple terms, LangChain helps an AI model use prompts, tools, data, and memory.
+
+2. ConversationBufferWindowMemory
+
+Answer: LangChain helps developers build LLM apps with chains, agents, tools, and retrieval.
+Answer: Harrison Chase created LangChain.
+Answer: Simply, LangChain connects an LLM to useful context and actions.
+
+Stored Messages:
+HUMAN: What is LangChain?
+AI: LangChain helps developers build LLM apps with chains, agents, tools, and retrieval.
+HUMAN: Who created it?
+AI: Harrison Chase created LangChain.
+HUMAN: Explain it simply again.
+AI: Simply, LangChain connects an LLM to useful context and actions.
+
+3. ConversationSummaryMemory
+
+Answer: LangChain is an LLM application framework.
+Answer: It was created by Harrison Chase.
+Answer: Simply, it helps AI apps remember context and use tools.
+
+Running Summary:
+The conversation says LangChain is an LLM framework created by Harrison Chase that helps AI apps use memory and tools.
+
+4. VectorStoreRetrieverMemory
+
+Answer: LangChain is a framework for connecting LLMs with tools, data, and workflows.
+Answer: Harrison Chase is the founder of LangChain.
+
+Retrieval for: LangChain founder
+1. initial memory: LangChain connects LLMs with tools and data.
+2. input: What is LangChain?
+output: LangChain is a framework for connecting LLMs with tools, data, and workflows.
+3. input: Who is the founder of LangChain?
+output: Harrison Chase is the founder of LangChain.
+4. input: Who created it?
+output: Harrison Chase is the founder of LangChain.
+
+All Indexed Texts:
+1. initial memory: LangChain connects LLMs with tools and data.
+2. input: What is LangChain?
+output: LangChain is a framework for connecting LLMs with tools, data, and workflows.
+3. input: Who created it?
+output: Harrison Chase is the founder of LangChain.
+4. input: Who is the founder of LangChain?
+output: Harrison Chase is the founder of LangChain.

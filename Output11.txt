@@ -1,0 +1,55 @@
+===== LangChain Contextual Compression Output =====
+
+Source Documents:
+1. LangChain is a framework for building applications powered by large language models. It connects prompts, models, retrievers, memory, tools, and agents into reusable AI workflows.
+2. LangChain was launched as an open-source project in October 2022. It was created by Harrison Chase while he was working at Robust Intelligence.
+3. Contextual compression retrieves documents first and then keeps only the parts that are relevant to the user's question. This reduces noise before the context is sent to the model.
+4. Multi-query retrieval creates several versions of a user question, retrieves documents for each version, and merges the results to improve coverage.
+5. LangChain is useful for document question answering, chatbots, retrieval augmented generation, tool calling, and agentic systems that reason over external data.
+
+1. Contextual Compression Results
+- LangChain was launched as an open-source project in October 2022. It was created by Harrison Chase while he was working at Robust Intelligence.
+- LangChain is a framework for building applications powered by large language models.
+- LangChain is useful for document question answering, chatbots, retrieval augmented generation, tool calling, and agentic systems that reason over external data.
+
+2. Conversational RAG
+First Question
+LangChain is a framework for building LLM-powered applications.
+
+Compressed context:
+- LangChain is a framework for building applications powered by large language models.
+- LangChain was launched as an open-source project in October 2022.
+- LangChain is useful for document question answering, chatbots, retrieval augmented generation, tool calling, and agentic systems that reason over external data.
+
+Follow-up
+LangChain was created by Harrison Chase.
+Chat history used: 2 message(s).
+
+Compressed context:
+- LangChain was launched as an open-source project in October 2022. It was created by Harrison Chase while he was working at Robust Intelligence.
+
+3. Agent Conversation
+Answer: LangChain is a framework for building LLM-powered applications.
+Answer: LangChain was created by Harrison Chase.
+
+4. MultiQuery Retriever
+Query variants:
+- Tell me about LangChain creator and features.
+- Who created LangChain and when was it launched?
+- What are the main LangChain features for AI applications?
+- How does LangChain support retrieval and tools?
+
+Answer:
+LangChain was created by Harrison Chase.
+
+Compressed context:
+- LangChain is a framework for building applications powered by large language models. It connects prompts, models, retrievers, memory, tools, and agents into reusable AI workflows.
+- LangChain was launched as an open-source project in October 2022. It was created by Harrison Chase while he was working at Robust Intelligence.
+- Multi-query retrieval creates several versions of a user question, retrieves documents for each version, and merges the results to improve coverage.
+- LangChain is useful for document question answering, chatbots, retrieval augmented generation, tool calling, and agentic systems that reason over external data.
+
+Sources:
+- LangChain is a framework for building applications powered by large language models. It connects prompts, models, retrievers, memory, tools, and agents into reusable AI workflows.
+- LangChain was launched as an open-source project in October 2022. It was created by Harrison Chase while he was working at Robust Intelligence.
+- Multi-query retrieval creates several versions of a user question, retrieves documents for each version, and merges the results to improve coverage.
+- LangChain is useful for document question answering, chatbots, retrieval augmented generation, tool calling, and agentic systems that reason over external data.

@@ -1,0 +1,53 @@
+===== LangChain RAG Types Output =====
+
+Knowledge Base Chunks:
+1. LangChain is a framework for building applications powered by large language models.
+It helps developers combine prompts, models, retrievers, tools, memory, and agents.
+2. LangChain began as an open-source project in October 2022 and was created by Harrison Chase.
+Naive RAG retrieves relevant text and sends it to an LLM with the user question.
+3. Conversational RAG also includes chat history so follow-up questions can use previous context.
+4. Agentic RAG exposes retrieval as a tool, allowing an agent to decide when it needs external context.
+5. In AI workflows, LangChain is useful for document question answering, chatbots, knowledge assistants,
+6. tool calling, and retrieval augmented generation over private or external data.
+
+Vector Retriever Check:
+1. tool calling, and retrieval augmented generation over private or external data.
+2. Conversational RAG also includes chat history so follow-up questions can use previous context.
+
+1. Naive RAG
+LangChain is a framework for building LLM-powered applications.
+
+Retrieved context:
+- LangChain is a framework for building applications powered by large language models.
+It helps developers combine prompts, models, retrievers, tools, memory, and agents.
+- LangChain began as an open-source project in October 2022 and was created by Harrison Chase.
+Naive RAG retrieves relevant text and sends it to an LLM with the user question.
+
+2. Conversational RAG
+LangChain was created by Harrison Chase.
+Chat history used: 2 message(s).
+
+Retrieved context:
+- LangChain began as an open-source project in October 2022 and was created by Harrison Chase.
+Naive RAG retrieves relevant text and sends it to an LLM with the user question.
+- LangChain is a framework for building applications powered by large language models.
+It helps developers combine prompts, models, retrievers, tools, memory, and agents.
+
+3. Structured Tool RAG
+LangChain supports AI workflows by combining retrieval, tools, memory, and agents around an LLM.
+Chat history used: 2 message(s).
+
+Retrieved context:
+- In AI workflows, LangChain is useful for document question answering, chatbots, knowledge assistants,
+- LangChain is a framework for building applications powered by large language models.
+It helps developers combine prompts, models, retrievers, tools, memory, and agents.
+
+4. Agentic RAG Conversation
+First Question
+Answer: LangChain is a framework for building LLM-powered applications.
+
+Follow-up
+Answer: LangChain was created by Harrison Chase.
+
+Ask again
+Answer: Simply put, LangChain helps an LLM app find context, use tools, and remember a conversation.

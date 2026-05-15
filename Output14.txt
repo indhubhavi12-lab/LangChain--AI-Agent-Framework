@@ -1,0 +1,37 @@
+===== LangChain Types of Chains Output =====
+
+Source Documents:
+1. LangChain is a framework for building applications powered by large language models. It provides reusable pieces for prompts, models, retrievers, memory, tools, agents, and chains.
+2. A chain connects multiple steps together. One step might format a prompt, another might call a model, and another might parse or refine the output.
+3. Stuff document chains combine documents into one context block before answering. Refine chains build an answer from one document and improve it as more documents are read.
+4. Map-reduce chains summarize or answer each document separately, then combine the intermediate outputs into a final result.
+5. Retrieval QA chains first retrieve relevant documents and then answer the user's question using only that retrieved context.
+
+1. LLMChain Style
+Question: What is LangChain?
+Answer: LangChain helps developers build LLM applications by composing reusable steps.
+
+2. SequentialChain Style
+Step 1 Summary: LangChain chains connect prompts, model calls, retrieved context, and output processing into repeatable workflows.
+Step 2 Keywords: LangChain chains connect prompts, model calls, retrieved context, and output processing into repeatable workflows.
+
+3. StuffDocumentsChain Style
+Answer: The document explains LangChain chain patterns such as stuff, refine, map-reduce, and retrieval QA.
+
+4. RefineDocumentsChain Style
+Refined summary: LangChain uses chains to connect prompts, models, documents, retrieval, refinement, and final answers.
+
+5. MapReduceDocumentsChain Style
+Mapped Outputs:
+- Doc 1: LangChain provides chain building blocks.
+- Doc 2: Refine chains improve an answer step by step.
+- Doc 3: Stuff chains combine documents into one context.
+- Doc 4: Map-reduce chains process chunks separately and merge results.
+- Doc 5: Retrieval QA answers from relevant documents.
+Reduced Output: Combined answer: chain types organize LLM workflows by stuffing context, refining across documents, mapping and reducing chunk outputs, or retrieving relevant context before answering.
+
+6. RetrievalQA Chain Style
+Retrieved Documents:
+- Retrieval QA chains first retrieve relevant documents and then answer the user's question using only that retrieved context.
+- LangChain is a framework for building applications powered by large language models. It provides reusable pieces for prompts, models, retrievers, memory, tools, agents, and chains.
+Answer: Retrieval QA chains search for relevant documents first, then use that context to answer the question.

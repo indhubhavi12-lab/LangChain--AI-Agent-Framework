@@ -1,0 +1,16 @@
+===== LangChain MapReduce Output =====
+
+Input Document Chunks:
+1. LangChain is a framework for building applications powered by large language models. It gives developers building blocks for prompts, model calls, chains, agents, tools, retrievers, and memory. MapReduce is a chain pattern for working with longer documents. The map step runs the same task on each chunk, such as summarizing each part of a document. The reduce step combines all intermediate outputs into one final answer.
+2. This pattern is useful when the complete document is too large to fit into one prompt. It also makes the workflow easier to inspect because every chunk creates its own intermediate result before the final summary is produced. In LangChain, MapReduce-style workflows can be built with runnable sequences, document chains, or custom functions that map over documents and then reduce the mapped outputs.
+
+Map Step Outputs:
+1. LangChain provides building blocks for LLM applications, including prompts, chains, tools, agents, retrievers, and memory.
+2. MapReduce summarizes each chunk separately, then combines the intermediate summaries into one final answer.
+
+Reduce Step Output:
+Final Summary: LangChain MapReduce workflows process long documents by mapping a task over smaller chunks and reducing the chunk outputs into one final result. This is useful when documents are too large for a single prompt and when you want inspectable intermediate summaries.
+
+Combined Points:
+- LangChain provides building blocks for LLM applications, including prompts, chains, tools, agents, retrievers, and memory.
+- MapReduce summarizes each chunk separately, then combines the intermediate summaries into one final answer.

@@ -1,0 +1,39 @@
+===== LangChain Compressor As Preprocessing Output =====
+
+Original Chunks:
+1. LangChain is a framework for building applications powered by large language models.
+It helps developers connect prompts, models, retrievers, tools, memory, and agents.
+
+Compressor-as-preprocessing means compressing documents before they are stored, indexed,
+or passed into a retrieval pipeline. This can reduce noisy text and keep the most useful
+information for later question answering.
+2. Contextual compression is often used after retrieval, but preprocessing compression is
+useful when the source documents are long, repetitive, or contain sections that are not
+important for the target task.
+
+For LangChain workflows, preprocessing can make the downstream RAG pipeline smaller,
+faster, and easier to inspect. The tradeoff is that overly aggressive compression can
+remove details that may be needed for future questions.
+
+Compressed Summary:
+1. LangChain is a framework for building applications powered by large language models. Compressor-as-preprocessing means compressing documents before they are stored, indexed,
+or passed into a retrieval pipeline. This can reduce noisy text and keep the most useful
+information for later question answering.
+2. Contextual compression is often used after retrieval, but preprocessing compression is
+useful when the source documents are long, repetitive, or contain sections that are not
+important for the target task. For LangChain workflows, preprocessing can make the downstream RAG pipeline smaller,
+faster, and easier to inspect. The tradeoff is that overly aggressive compression can
+remove details that may be needed for future questions.
+
+Compressed Context Used For QA:
+LangChain is a framework for building applications powered by large language models. Compressor-as-preprocessing means compressing documents before they are stored, indexed,
+or passed into a retrieval pipeline. This can reduce noisy text and keep the most useful
+information for later question answering.
+Contextual compression is often used after retrieval, but preprocessing compression is
+useful when the source documents are long, repetitive, or contain sections that are not
+important for the target task. For LangChain workflows, preprocessing can make the downstream RAG pipeline smaller,
+faster, and easier to inspect. The tradeoff is that overly aggressive compression can
+remove details that may be needed for future questions.
+
+Answer to your question:
+The main idea is that compressor-as-preprocessing reduces long or noisy documents before retrieval, making later LangChain RAG workflows smaller, faster, and easier to inspect.

@@ -1,0 +1,27 @@
+===== LangChain Remaining Types of RAG Output =====
+
+1. ParentDocumentRetriever
+
+Retrieved Parent Doc: LangChain helps build LLM-powered apps with memory, retrieval, tools, and agents. Agents in LangChain can decide which tools to call in order to answer a question.
+
+2. BM25Retriever
+
+BM25 Result: BM25 is a classical keyword retrieval method.
+BM25 Result: Vector search is powerful for semantic retrieval.
+
+3. EnsembleRetriever
+
+Ensemble Doc: You can build AI apps using LangChain.
+Ensemble Doc: LangChain supports LLMs.
+
+4. TimeWeightedVectorStoreRetriever
+
+TimeWeighted Result: LangChain is for LLM-based apps.
+TimeWeighted Result: Recently accessed memories can rank higher in time-weighted retrieval.
+TimeWeighted Result: Vector search improves relevance.
+
+5. TavilySearchAPIRetriever
+
+Tavily-Style Result: TavilySearchAPIRetriever is used when a RAG app needs live web context instead of only local documents.
+Tavily-Style Result: For a production LangChain app, web retrieval should be paired with source checking, summarization, and rate-limit handling.
+Tavily-Style Result: This offline lesson keeps the Tavily example deterministic, so it can run without API keys or network access.
